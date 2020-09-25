@@ -1,17 +1,20 @@
 <!doctype html>
 <html lang="en">
   <head>
+	<link rel="stylesheet" href="resume_style.css">
     <meta charset="utf-8">
     <title id="title">Benjamin Schmidt's Resume</title>
   </head>
   <body id="resume-page">
     
-    <div id="main-header">
-      <img id="headshot" src="headshot.jpg" alt="Sharply dressed young man with a beard">
-      <section id="main-header-text" class="module">
+    <div id="banner">
+	  <section id="headshot-section" class="banner-part">
+        <img id="headshot" src="headshot.jpeg" alt="Sharply dressed young man with a beard">
+      </section>
+	  <section id="main-header-text" class="banner-part">
         <h1 id="name" class="name-text">Benjamin Schmidt</h1>
         <p id="contact-information" class="normal-text">
-          (540) 308 0045<br>
+          (540)-308-0045<br>
           860 Plantation Road, Blacksburg, VA 24060</p>
         <nav id="header-links" class="normal text">
           <a id="email" href="https://vt.edu/">bensch@vt.edu</a><br>
@@ -22,14 +25,16 @@
     
     <section id="objective" class="module">
       <h2 id="objective-header" class="module-text">OBJECTIVE</h2>
-      <p id="objective-text" class="normal-text">To learn new tools and techniques in order to solve new and old problems and broaden perspectives</p>
-    </section>
+	  <section id="my-objective" class="inner-text">
+        <p id="objective-text" class="normal-text">To learn new tools and techniques in order to solve new and old problems and broaden perspectives.</p>
+      </section>
+	</section>
   
     <section id="education" class="module">
       <h2 id="education-header" class="module-text">EDUCATION</h2>
-      <section id="VT">
+      <section id="VT" class="inner-text">
         <h3 id="VT-header" class="subsection-text">B.S. Computer Science, expected December 2021</h3>
-        <p id="VT-information" class="normal-text">Virginia Tech, Blacksburg, VA<br>
+        <p id="VT-information" class="education-information">Virginia Tech, Blacksburg, VA<br>
           Dean's List<br>
           GPA: 3.49
         </p>
@@ -40,9 +45,9 @@
           <li>Human-Computer Interaction</li>
         </ul>
       </section>
-      <section id="GCC">
+      <section id="GCC" class="inner-text">
         <h3 id="GCC-header" class="subsection-text">Associates in Electrical Engineering, June 2018</h3>
-        <p id="GCC-information" class="normal-text">Germanna Community College, Fredericksburg, VA<br>
+        <p id="GCC-information" class="education-information">Germanna Community College, Fredericksburg, VA<br>
           President's List and Dean's List<br>
           GPA: 3.857
         </p>
@@ -51,17 +56,17 @@
   
     <section id="skills" class="module">
       <h2 id="skills-header" class="module-text">SKILLS</h2>
-      <section id="languages">
-        <h3 id="languages-header" class="subsection-text">Languages:</h3>
-        <ul id="language-list" class="normal-text">
-          <li>C/C++</li>
+      <section id="language-skills" class="inner-text">
+        <h3 id="languages-header">Languages:</h3>
+        <ul id="language-list">
+          <li>C/C++/C#</li>
           <li>Java</li>
           <li>HTML</li>
           <li>Python</li>
         </ul>
       </section>
-      <section id="software" class="normal-text">
-        <h3 id="software-header" class="subsection-text">Software:</h3>
+      <section id="software-skills" class="inner-text">
+        <h3 id="software-header">Software:</h3>
         <ul id="software-list">
           <li>Autodesk Inventor</li>
           <li>Unity</li>
@@ -69,8 +74,8 @@
           <li>Excel</li>
         </ul>
       </section>
-      <section id="electric" class="normal-text">
-        <h3 id="electric-header" class="subsection-text">Electric:</h3>
+      <section id="electric-skills" class="inner-text">
+        <h3 id="electric-header">Electrical:</h3>
         <ul id="electric-list">
           <li>DC Circuit Analysis</li>
           <li>Arduino</li>

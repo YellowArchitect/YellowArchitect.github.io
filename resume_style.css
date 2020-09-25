@@ -1,0 +1,128 @@
+/* Benjamin Schmidt, bensch, 9/10/20 */
+
+/* I wasn't sure if the headers also had to be altered, so I went ahead and did. */
+
+body {
+	background: #996633;
+}
+
+h2 {
+	border: solid;
+	background: #0066ff;
+	text-align: center;
+	border-color: #4d4d4d;
+}
+
+h3 {
+	text-align: center;
+}
+
+h4 {
+	text-align: center;
+}
+
+.module {
+	position: relative;
+}
+
+
+/* Makes the subsections more stylized and positions them vertically. */
+.inner-text {
+	border: solid;
+	position: absolute;
+	font: 18px verdana, sans-serif;
+	top: 34px;
+	bottom: 0;
+	background: #8c8c8c;
+	border-color: #4d4d4d;
+}
+
+/* Banner section. */
+/*--------------------------------------------------------------------------*/
+
+
+/* Sets the size of the capsule. */
+#banner {
+	position: -webkit-sticky; /* Safari */
+	position: sticky;
+	height: 248px;
+	top: 0;
+	border: solid;
+	font: 18px verdana, sans-serif;
+	background: #0066ff;
+	border-color: #4d4d4d;
+	z-index: 1;
+}
+
+.banner-part {
+	position: absolute;
+}
+	
+/* Sets horizontal alignment. */
+#main-header-text {
+	left: 250px;
+}
+
+
+/* Objective section. */
+/*--------------------------------------------------------------------------*/
+
+
+/* Sets the size of the capsule. */
+#objective {
+	height: 100px;
+	text-align: center;
+}
+
+
+/* Sets horizontal alignment. */
+#my-objective {
+	left: 0;
+	right: 0;
+}
+
+
+/* Education section. */
+/*--------------------------------------------------------------------------*/
+
+
+/* Sets the size of the capsule. */
+#education {
+	height: 350px;
+}
+
+
+/* Sets the horizontal alignment for the subsections. */
+#VT {
+	left: 0;
+	right: 50%;
+}
+#GCC {
+	left: 50%;
+	right: 0;
+}
+
+
+/* Skills section. */
+/*--------------------------------------------------------------------------*/
+
+
+/* Sets the size of the capsule. */
+#skills {
+	height: 250px;
+}
+
+
+/* Sets the horizontal alignment for the subsections. */
+#language-skills {
+	left: 0;
+	right: 67%;
+}
+#software-skills {
+	left: 33%;
+	right: 33%;
+}
+#electric-skills {
+	left: 67%;
+	right: 0;
+}
