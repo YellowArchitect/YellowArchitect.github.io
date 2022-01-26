@@ -13,4 +13,4 @@ Secondly, I hope to actually showcase some of the things I've done here. I'm not
 
 Finally, the DND API is no more for two reasons. One, I had essentially no work for it done. Two, as much as I enjoy the occasional game of DND, it also annoys me to no end and I simply don't have the patience or heart to work on the project anymore.
 
-I hope everyone who read this is having a great day and I'll keep you guys posted. Cheers!
+I hope everyone who reads this is having a great day and I'll keep you guys posted. Cheers!
