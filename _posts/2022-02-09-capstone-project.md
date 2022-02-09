@@ -23,6 +23,6 @@ The solution we cam up with was using image recognition. For the demo day, we wo
 
 Even though we had a slow start and several technical hurdles, the project was ultimately a success. Our instructor and client were fairly impressed with the work we were able to accomplish in the relatively short amount of time we had to do it. Even though it wasn’t perfect, we still put on a good show on demo day and I’m proud of my team’s accomplishments. Catherine, Lauren, if you guys are reading this, I want to thank you guys for the great memories, hard work, and for pushing me when I felt like I was at a dead end. You guys are awesome, and I wish you the best.
 
-If you want to look at what I did for the project, the repository is at https://git.cs.vt.edu/bensch/pamplin-p-ar-k/-/tree/master/Hello%20AR%20World, and some basic documentation can be found at https://docs.google.com/document/d/1GsYiHNEvye2AFMLmXLrCy3dYjvzf2ZLMrBvce86fiwM/edit?usp=sharing.
+If you want to look at what I did for the project, the repository can be found [here](https://git.cs.vt.edu/bensch/pamplin-p-ar-k/-/tree/master/Hello%20AR%20World), and some basic documentation can be found [here](https://docs.google.com/document/d/1GsYiHNEvye2AFMLmXLrCy3dYjvzf2ZLMrBvce86fiwM/edit?usp=sharing).
 
 Sorry for the long post, but I hope it was interesting, enlightening, or just something different to think about. Cheers!
